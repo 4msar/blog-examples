@@ -1,0 +1,9 @@
+# Laravel Blog API
+
+@baseUrl = http://localhost:7070/api
+
+### Get All Posts
+
+# @name posts
+GET {{baseUrl}}/posts HTTP/1.1
+Content-Type: application/json
